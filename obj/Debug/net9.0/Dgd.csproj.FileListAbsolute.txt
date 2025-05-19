@@ -1,0 +1,14 @@
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\Dgd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\Dgd.AssemblyInfoInputs.cache
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\Dgd.AssemblyInfo.cs
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\Dgd.csproj.CoreCompileInputs.cache
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\bin\Debug\net9.0\Dgd.exe
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\bin\Debug\net9.0\Dgd.deps.json
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\bin\Debug\net9.0\Dgd.runtimeconfig.json
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\bin\Debug\net9.0\Dgd.dll
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\bin\Debug\net9.0\Dgd.pdb
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\Dgd.dll
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\refint\Dgd.dll
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\Dgd.pdb
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\Dgd.genruntimeconfig.cache
+C:\Users\Burak\Desktop\GmaeProgEsra\Dgd\obj\Debug\net9.0\ref\Dgd.dll
