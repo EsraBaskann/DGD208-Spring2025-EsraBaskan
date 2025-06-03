@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Collections.Generic;
 using System.Linq;
@@ -102,6 +103,9 @@ public class Menu
         for (int i = 0; i < petTypes.Length; i++)
         {
             Console.WriteLine($"{i + 1}. {petTypes[i]}");
+            // Display ASCII art for this pet type
+            AsciiAnimals.DisplayPetAscii(petTypes[i]);
+            Console.WriteLine(); // Add a blank line after each pet
         }
 
         Console.Write("\nEnter your choice (or 0 to go back): ");
@@ -197,6 +201,8 @@ public class Menu
             foreach (var pet in adoptedPets)
             {
                 Console.WriteLine($"\n{pet.Name} the {pet.Type}");
+                // Display ASCII art for this pet
+                AsciiAnimals.DisplayPetAscii(pet.Type);
                 Console.WriteLine($"Status: {(pet.IsAlive ? "Alive" : "Deceased")}");
                 if (pet.IsAlive)
                 {
@@ -415,7 +421,10 @@ public class Menu
             // Handle console error gracefully
         }
         Console.WriteLine($"\nOh no! {e.Pet.Name} the {e.Pet.Type} has passed away.");
-        Console.WriteLine("Press any key to continue...");
+        // Display sad ASCII art
+        Console.WriteLine(AsciiAnimals.SadPetAscii);
+        Console.WriteLine($"Goodbye {e.Pet.Name}... (2023-{DateTime.Now.Year})");
+        Console.WriteLine("\nPress any key to continue...");
         try
             {
                 Console.ReadKey();
